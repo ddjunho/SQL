@@ -1,0 +1,5 @@
+주문일자순으로 모든 주문내역(모든 필드)를 검색하시오.
+SELECT *
+FROM Orders
+WHERE orderdate;
+
