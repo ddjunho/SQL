@@ -1,0 +1,32 @@
+전체 보기
+SELECT *
+FROM Book;
+
+도서번호가 1인 도서의 이름
+SELECT bookname
+FROM Book
+WHERE bookid=1;
+
+가격이 20000원 이상인 도서의 이름
+
+
+박지성의 총구매액
+SELECT SUM(saleprice) AS "박지성의 총구매액"
+FROM Orders
+WHERE custid=1;
+
+박지성이 구매한 도서의 수
+SELECT COUNT(*) AS 박지성
+FROM Book;
+
+박지성이 구매한 도서의 출판사의 수
+SELECT COUNT(DISTINCT publisher) AS 출판사의수
+FROM Book;
+
+박지성이 구매한 도서의 이름, 가격, 정가와 판매가격의 차이
+
+박지성이 구매하지 않은 도서의 이름
+
+마당서점 도서의 총 개수
+
+마당서점에 도서를 출고하는 출판사의 
